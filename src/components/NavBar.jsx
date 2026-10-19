@@ -20,7 +20,7 @@ function NavBar() {
         </Link>
 
 
-        {isAuth ?
+        {isAuth.isAuth ?
           <button type="button" onClick={logout}>
             Log uit
           </button>
